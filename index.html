@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ALIGN — The Art of Control</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@200;300;400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="#" class="nav__logo">
+      <img src="align_logo_screenshot.jpg" alt="ALIGN" class="nav__logo-img" />
+    </a>
+    <ul class="nav__links">
+      <li><a href="#philosophy">Philosophy</a></li>
+      <li><a href="#team">Our Team</a></li>
+      <li class="nav__dropdown-wrap">
+        <a href="#classes" class="nav__dropdown-trigger">Wellness Hub <span class="nav__caret">‹</span></a>
+        <ul class="nav__dropdown">
+          <li><a href="#classes" data-tab-target="classes">Classes</a></li>
+          <li><a href="#classes" data-tab-target="nutrition">Nutrition</a></li>
+          <li><a href="#classes" data-tab-target="massage">Massage</a></li>
+        </ul>
+      </li>
+      <li><a href="#collection">Our Collection</a></li>
+      <li><a href="#studio">Photo Gallery</a></li>
+      <li><a href="#contact" class="nav__cta">Contact</a></li>
+    </ul>
+    <button class="nav__hamburger" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Premium Pilates</p>
+      <h1 class="hero__title">The Art <em>of Control</em></h1>
+      <p class="hero__subtitle">Precision. Balance. Elevated Body Awareness.</p>
+      <p class="hero__subtitle hero__subtitle--lower">Mindful Movement</p>
+      <a href="#classes" class="btn btn--light">Your Wellness Your Way</a>
+    </div>
+    <div class="hero__scroll">
+      <span>scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- INTRO STATEMENT -->
+  <section class="statement">
+    <div class="container">
+      <p class="statement__text">
+        ALIGN is not a workout.<br />
+        It is a <em>practice</em> — in strength, intention<br />and the quiet power of moving well.
+      </p>
+    </div>
+  </section>
+
+  <!-- PHILOSOPHY -->
+  <section class="philosophy" id="philosophy">
+    <div class="philosophy__image">
+      <div class="philosophy__image-inner">
+        <img src="align_logo_screenshot.jpg" alt="ALIGN" class="philosophy__logo" />
+      </div>
+    </div>
+    <div class="philosophy__content">
+      <span class="label">Our Philosophy</span>
+      <h2>Refined Strength.<br /><em>Intentional Wellness.</em></h2>
+      <p>
+        We believe the body moves best when the mind leads. ALIGN was created for those who seek more than fitness — who understand that true strength is earned through precision, patience and presence.
+      </p>
+      <p>
+        Every session is a study in control. Every movement, deliberate.
+      </p>
+    </div>
+  </section>
+
+  <!-- KEYWORDS / PILLARS -->
+  <section class="pillars">
+    <div class="container">
+      <div class="pillars__grid">
+        <div class="pillar">
+          <span class="pillar__number">01</span>
+          <h3>Precision</h3>
+          <p>Every movement refined to its essential form.</p>
+        </div>
+        <div class="pillar">
+          <span class="pillar__number">02</span>
+          <h3>Balance</h3>
+          <p>Mind and body working in perfect equilibrium.</p>
+        </div>
+        <div class="pillar">
+          <span class="pillar__number">03</span>
+          <h3>Control</h3>
+          <p>Strength expressed through intention, not force.</p>
+        </div>
+        <div class="pillar">
+          <span class="pillar__number">04</span>
+          <h3>Alignment</h3>
+          <p>Restoring the body to its natural, elegant state.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- OUR TEAM -->
+  <section class="team" id="team">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="label">The People</span>
+        <h2>Our <em>Team</em></h2>
+      </div>
+      <div class="team__grid">
+        <div class="team-card reveal">
+          <div class="team-card__image team-card__image--1"></div>
+          <div class="team-card__body">
+            <h3>Sofia Andreou</h3>
+            <span class="team-card__role">Founder · Lead Instructor</span>
+            <p>Certified in Classical Pilates and movement therapy, Sofia brings over 12 years of teaching experience and a deep belief in the transformative power of mindful movement.</p>
+          </div>
+        </div>
+        <div class="team-card reveal reveal-delay-1">
+          <div class="team-card__image team-card__image--2"></div>
+          <div class="team-card__body">
+            <h3>Elena Papadaki</h3>
+            <span class="team-card__role">Reformer Specialist</span>
+            <p>Elena trained in London and New York before returning to Greece. Her sessions are known for their precision, warmth and attention to the individual body.</p>
+          </div>
+        </div>
+        <div class="team-card reveal reveal-delay-2">
+          <div class="team-card__image team-card__image--3"></div>
+          <div class="team-card__body">
+            <h3>Maria Kostaki</h3>
+            <span class="team-card__role">Restorative Movement</span>
+            <p>Specialising in recovery and corrective alignment, Maria works with clients who seek restoration, injury rehabilitation and a gentler path back to the body.</p>
+          </div>
+        </div>
+        <div class="team-card reveal">
+          <div class="team-card__image team-card__image--4"></div>
+          <div class="team-card__body">
+            <h3>Ioanna Vassilaki</h3>
+            <span class="team-card__role">Clinical Pilates · Physiotherapist</span>
+            <p>With a background in physiotherapy and postgraduate training in clinical Pilates, Ioanna bridges the gap between rehabilitation and elite movement with quiet expertise.</p>
+          </div>
+        </div>
+        <div class="team-card reveal reveal-delay-1">
+          <div class="team-card__image team-card__image--5"></div>
+          <div class="team-card__body">
+            <h3>Dimitra Alexiou</h3>
+            <span class="team-card__role">Nutrition Specialist</span>
+            <p>Dimitra holds a master's in clinical nutrition and believes that what we eat is an extension of how we move. Her approach is personal, evidence-based and deeply compassionate.</p>
+          </div>
+        </div>
+        <div class="team-card reveal reveal-delay-2">
+          <div class="team-card__image team-card__image--6"></div>
+          <div class="team-card__body">
+            <h3>Nikos Stavros</h3>
+            <span class="team-card__role">EMS &amp; Body Composition</span>
+            <p>A specialist in electro-muscle stimulation and body contouring technology, Nikos brings scientific precision to every session, delivering results with care and professionalism.</p>
+          </div>
+        </div>
+        <div class="team-card reveal">
+          <div class="team-card__image team-card__image--7"></div>
+          <div class="team-card__body">
+            <h3>Katerina Mouriki</h3>
+            <span class="team-card__role">Massage Therapist · Lymphatic Drainage</span>
+            <p>Katerina's touch is intuitive and deeply skilled. Trained in manual lymphatic drainage and therapeutic massage, she creates a space of profound calm and physical restoration.</p>
+          </div>
+        </div>
+        <div class="team-card reveal reveal-delay-1">
+          <div class="team-card__image team-card__image--8"></div>
+          <div class="team-card__body">
+            <h3>Stavroula Petrou</h3>
+            <span class="team-card__role">Stretch &amp; Mobility Coach</span>
+            <p>Stavroula combines yoga anatomy, fascial release and active stretching into sessions that feel both therapeutic and transformative — restoring length where the body has held tight.</p>
+          </div>
+        </div>
+        <div class="team-card reveal reveal-delay-2">
+          <div class="team-card__image team-card__image--9"></div>
+          <div class="team-card__body">
+            <h3>Alexia Dimos</h3>
+            <span class="team-card__role">Wellness Coordinator</span>
+            <p>Alexia is the heartbeat of the ALIGN studio. She ensures every client's journey is seamless, personal and held with the warmth and attention the brand is built on.</p>
+          </div>
+        </div>
+        <div class="team-card reveal">
+          <div class="team-card__image team-card__image--10"></div>
+          <div class="team-card__body">
+            <h3>Thanos Georgiou</h3>
+            <span class="team-card__role">Vacu &amp; Recovery Specialist</span>
+            <p>Specialising in recovery technology and body contouring, Thanos guides clients through Vacu and restoration programmes that support performance, balance and long-term wellbeing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDITORIAL QUOTE -->
+  <section class="quote">
+    <div class="container">
+      <blockquote>
+        <em>"Strength is not loud.<br />It is precise, patient<br />and deeply intentional."</em>
+      </blockquote>
+      <cite>— The ALIGN Philosophy</cite>
+    </div>
+  </section>
+
+  <!-- WELLNESS HUB -->
+  <section class="wellness" id="classes">
+    <div class="container">
+      <div class="section-header">
+        <span class="label">Wellness Hub</span>
+        <h2>Your Wellness <em>Your Way</em></h2>
+      </div>
+
+      <!-- Sub-nav tabs -->
+      <div class="wellness__tabs">
+        <button class="wellness__tab active" data-tab="classes">Classes</button>
+        <button class="wellness__tab" data-tab="nutrition">Nutrition</button>
+        <button class="wellness__tab" data-tab="massage">Massage</button>
+      </div>
+
+      <!-- CLASSES panel -->
+      <div class="wellness__panel active" id="tab-classes">
+        <div class="classes__grid">
+          <div class="class-card">
+            <div class="class-card__image class-card__image--1"></div>
+            <div class="class-card__body">
+              <span class="class-card__tag">Equipment</span>
+              <h3>Pilates Equipment</h3>
+              <p>Work with reformers, cadillac, chair and barrel in a private, precision-led environment. Each session is tailored to your body's needs — building strength, flexibility and deep postural awareness through the full ALIGN equipment repertoire.</p>
+              <a href="#" class="link-arrow modal-trigger" data-modal="modal-pilates">Choose Your Class →</a>
+            </div>
+          </div>
+          <div class="class-card">
+            <div class="class-card__image class-card__image--2"></div>
+            <div class="class-card__body">
+              <span class="class-card__tag">Community</span>
+              <h3>Group Classes</h3>
+              <p>Move together, grow together. Our small-group sessions — never more than eight — create an intimate, supportive space where shared energy elevates individual practice. Guided with care, felt as one.</p>
+              <a href="#" class="link-arrow modal-trigger" data-modal="modal-group">Choose Your Class →</a>
+            </div>
+          </div>
+          <div class="class-card">
+            <div class="class-card__image class-card__image--3"></div>
+            <div class="class-card__body">
+              <span class="class-card__tag">Technology</span>
+              <h3>EMS &amp; Vacu Training</h3>
+              <p>Where science meets precision. EMS electro-muscle stimulation activates deep muscle fibres in a fraction of the time, while Vacu training enhances circulation and body contouring — together, a powerfully efficient and results-driven session.</p>
+              <a href="#" class="link-arrow modal-trigger" data-modal="modal-ems">Choose Your Class →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- NUTRITION panel -->
+      <div class="wellness__panel" id="tab-nutrition">
+        <div class="classes__grid">
+          <div class="class-card">
+            <div class="class-card__image class-card__image--nutrition-1"></div>
+            <div class="class-card__body">
+              <span class="class-card__tag">Foundations</span>
+              <h3>Mindful Eating</h3>
+              <p>An introduction to intuitive nutrition — learning to nourish your body with the same intention you bring to movement.</p>
+              <a href="#contact" class="link-arrow">Learn More →</a>
+            </div>
+          </div>
+          <div class="class-card">
+            <div class="class-card__image class-card__image--nutrition-2"></div>
+            <div class="class-card__body">
+              <span class="class-card__tag">Personal</span>
+              <h3>Nutrition Coaching</h3>
+              <p>One-to-one sessions with our nutrition specialist, tailored to your body, your practice and your goals.</p>
+              <a href="#contact" class="link-arrow">Book a Session →</a>
+            </div>
+          </div>
+          <div class="class-card">
+            <div class="class-card__image class-card__image--nutrition-3"></div>
+            <div class="class-card__body">
+              <span class="class-card__tag">Lifestyle</span>
+              <h3>Wellness Planning</h3>
+              <p>A holistic approach combining movement, rest and nutrition into a personalised weekly wellness rhythm.</p>
+              <a href="#contact" class="link-arrow">Get Started →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MASSAGE panel -->
+      <div class="wellness__panel" id="tab-massage">
+        <div class="classes__grid">
+          <div class="class-card">
+            <div class="class-card__image class-card__image--massage-1"></div>
+            <div class="class-card__body">
+              <span class="class-card__tag">Signature</span>
+              <h3>Deep Tissue Massage</h3>
+              <p>Targeted pressure work that releases chronic tension, restores mobility and supports muscular recovery after training.</p>
+              <a href="#" class="link-arrow modal-trigger" data-modal="modal-deep-tissue">Choose Your Class →</a>
+            </div>
+          </div>
+          <div class="class-card">
+            <div class="class-card__image class-card__image--massage-2"></div>
+            <div class="class-card__body">
+              <span class="class-card__tag">Restorative</span>
+              <h3>Lymphatic Drainage</h3>
+              <p>A gentle, rhythmic technique that reduces inflammation, supports detoxification and promotes a profound sense of calm.</p>
+              <a href="#" class="link-arrow modal-trigger" data-modal="modal-lymphatic">Choose Your Class →</a>
+            </div>
+          </div>
+          <div class="class-card">
+            <div class="class-card__image class-card__image--massage-3"></div>
+            <div class="class-card__body">
+              <span class="class-card__tag">Ritual</span>
+              <h3>ALIGN Ritual Massage</h3>
+              <p>Our signature full-body treatment combining aromatherapy, warm touch and breathwork for a complete sensory reset.</p>
+              <a href="#" class="link-arrow modal-trigger" data-modal="modal-ritual">Choose Your Class →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- OUR COLLECTION -->
+  <section class="collection" id="collection">
+    <div class="container">
+      <div class="collection__header reveal">
+        <span class="label">Curated For You</span>
+        <h2>Our <em>Collection</em></h2>
+        <p>Premium equipment, wellness essentials and studio-grade tools — each piece selected to support your practice beyond the studio.</p>
+      </div>
+      <div class="collection__grid">
+        <div class="collection__card reveal">
+          <div class="collection__card-image collection__card-image--1"></div>
+          <div class="collection__card-body">
+            <span class="label">Equipment</span>
+            <h3>Reformer Essentials</h3>
+            <p>Studio-grade resistance bands, reformer straps and grip socks — precision tools for your home practice.</p>
+            <a href="#contact" class="link-arrow">Enquire <span>→</span></a>
+          </div>
+        </div>
+        <div class="collection__card reveal">
+          <div class="collection__card-image collection__card-image--2"></div>
+          <div class="collection__card-body">
+            <span class="label">Wellness</span>
+            <h3>Recovery Ritual</h3>
+            <p>Curated recovery kits with foam rollers, massage balls and guided stretch journals. Restore with intention.</p>
+            <a href="#contact" class="link-arrow">Enquire <span>→</span></a>
+          </div>
+        </div>
+        <div class="collection__card reveal">
+          <div class="collection__card-image collection__card-image--3"></div>
+          <div class="collection__card-body">
+            <span class="label">Nutrition</span>
+            <h3>Mindful Nourishment</h3>
+            <p>Protein blends, herbal supplements and nutritionist-approved wellness packs — designed to complement your programme.</p>
+            <a href="#contact" class="link-arrow">Enquire <span>→</span></a>
+          </div>
+        </div>
+        <div class="collection__card reveal">
+          <div class="collection__card-image collection__card-image--4"></div>
+          <div class="collection__card-body">
+            <span class="label">Apparel</span>
+            <h3>ALIGN Studio Wear</h3>
+            <p>Minimal, considered activewear. Engineered for movement, designed to be worn all day.</p>
+            <a href="#contact" class="link-arrow">Enquire <span>→</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHOTO GALLERY -->
+  <section class="studio" id="studio">
+    <div class="studio__content" style="max-width:100%; text-align:center;">
+      <span class="label">The Space</span>
+      <h2>Photo Gallery</h2>
+      <p>A glimpse into the world of ALIGN — curated spaces, refined details, and the environment where transformation begins.</p>
+    </div>
+    <div class="gallery__grid">
+      <div class="gallery__item gallery__item--1"></div>
+      <div class="gallery__item gallery__item--2"></div>
+      <div class="gallery__item gallery__item--3"></div>
+      <div class="gallery__item gallery__item--4"></div>
+      <div class="gallery__item gallery__item--5"></div>
+      <div class="gallery__item gallery__item--6"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT / BOOKING -->
+  <section class="contact" id="contact">
+    <div class="container contact__inner">
+      <div class="contact__content">
+        <span class="label">Begin</span>
+        <h2>Your Practice<br /><em>Starts Here</em></h2>
+        <p>Introductory sessions available for new clients. Limited availability each month.</p>
+      </div>
+      <form class="contact__form" novalidate>
+        <div class="form-group">
+          <input type="text" placeholder="Your Name" required />
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Email Address" required />
+        </div>
+        <div class="form-group">
+          <select>
+            <option value="" disabled selected>Select a Class</option>
+            <option>Mat Pilates</option>
+            <option>Reformer Method</option>
+            <option>Align &amp; Restore</option>
+            <option>Private Session</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <textarea placeholder="Any notes or questions..." rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn btn--dark btn--full">Request a Session</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <div class="footer__logo">ALIGN</div>
+        <p class="footer__tagline">The Art of Control</p>
+      </div>
+      <div class="footer__links">
+        <a href="#philosophy">Philosophy</a>
+        <a href="#method">Method</a>
+        <a href="#classes">Wellness Hub</a>
+        <a href="#studio">Studio</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer__address">
+        <p>Λεωφόρος Κηφισίας 24</p>
+        <p>Κολωνάκι, Αθήνα 106 74</p>
+        <p>Greece</p>
+        <a href="tel:+302101234567" class="footer__phone">+30 210 123 4567</a>
+      </div>
+      <div class="footer__social">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Pinterest">PT</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 ALIGN. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- COOKIE BANNER -->
+  <div class="cookie-banner" id="cookieBanner" role="alert" aria-live="polite">
+    <span class="cookie-banner__icon">🍪</span>
+    <p>We use cookies to improve your experience. By continuing to use our site, you accept our <a href="#" class="cookie-banner__link">Privacy Policy</a>.</p>
+    <button class="cookie-banner__btn" id="cookieAccept">Accept</button>
+  </div>
+
+  <!-- MODALS -->
+
+  <!-- Pilates Equipment -->
+  <div class="modal" id="modal-pilates" role="dialog" aria-modal="true" aria-label="Pilates Equipment">
+    <div class="modal__backdrop"></div>
+    <div class="modal__panel">
+      <button class="modal__close" aria-label="Close">×</button>
+      <div class="modal__header">
+        <span class="label">Classes</span>
+        <h2>Pilates <em>Equipment</em></h2>
+      </div>
+      <div class="modal__grid">
+        <div class="modal__item">
+          <span class="modal__item-tag">Apparatus</span>
+          <h3>Pilates Equipment</h3>
+          <p>Work with reformers, cadillac, chair and barrel in a private, precision-led environment. Each session is tailored to your body's needs — building strength, flexibility and deep postural awareness through the full ALIGN equipment repertoire.</p>
+          <a href="https://www.bookup.gr/business-directory" target="_blank" rel="noopener" class="btn btn--dark modal-book">Book Now</a>
+        </div>
+        <div class="modal__item">
+          <span class="modal__item-tag">Therapeutic</span>
+          <h3>Clinical</h3>
+          <p>A medically informed Pilates programme designed in collaboration with physiotherapists and movement specialists. Ideal for post-injury rehabilitation, chronic pain management and clients seeking a deeply corrective, evidence-based approach to movement.</p>
+          <a href="https://www.bookup.gr/business-directory" target="_blank" rel="noopener" class="btn btn--dark modal-book">Book Now</a>
+        </div>
+        <div class="modal__item">
+          <span class="modal__item-tag">Flexibility</span>
+          <h3>Stretch &amp; Mobility</h3>
+          <p>Dedicated sessions focused on expanding range of motion, releasing fascial tension and restoring the body's natural ease of movement. A perfect complement to any training practice — or a restorative ritual in its own right.</p>
+          <a href="https://www.bookup.gr/business-directory" target="_blank" rel="noopener" class="btn btn--dark modal-book">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Group Classes -->
+  <div class="modal" id="modal-group" role="dialog" aria-modal="true" aria-label="Group Classes">
+    <div class="modal__backdrop"></div>
+    <div class="modal__panel">
+      <button class="modal__close" aria-label="Close">×</button>
+      <div class="modal__header">
+        <span class="label">Classes</span>
+        <h2>Group <em>Classes</em></h2>
+      </div>
+      <div class="modal__grid">
+        <div class="modal__item">
+          <span class="modal__item-tag">Foundation</span>
+          <h3>Mat Fundamentals</h3>
+          <p>A small-group mat class built on classical foundations. Breath, alignment and control — mastered together in an intimate and supportive environment.</p>
+          <a href="https://www.bookup.gr/business-directory" target="_blank" rel="noopener" class="btn btn--dark modal-book">Book Now</a>
+        </div>
+        <div class="modal__item">
+          <span class="modal__item-tag">Signature</span>
+          <h3>Reformer Group</h3>
+          <p>Our most popular group format. Up to 8 clients on reformers, guided through a precise and energising sequence that leaves you taller, stronger and deeply present.</p>
+          <a href="https://www.bookup.gr/business-directory" target="_blank" rel="noopener" class="btn btn--dark modal-book">Book Now</a>
+        </div>
+        <div class="modal__item">
+          <span class="modal__item-tag">Restorative</span>
+          <h3>Restore &amp; Align</h3>
+          <p>Slower, more intentional group movement for recovery days. A collective exhale — releasing tension, restoring length and returning the body to balance.</p>
+          <a href="https://www.bookup.gr/business-directory" target="_blank" rel="noopener" class="btn btn--dark modal-book">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- EMS & Vacu -->
+  <div class="modal" id="modal-ems" role="dialog" aria-modal="true" aria-label="EMS and Vacu Training">
+    <div class="modal__backdrop"></div>
+    <div class="modal__panel">
+      <button class="modal__close" aria-label="Close">×</button>
+      <div class="modal__header">
+        <span class="label">Classes</span>
+        <h2>EMS &amp; Vacu <em>Training</em></h2>
+      </div>
+      <div class="modal__grid">
+        <div class="modal__item">
+          <span class="modal__item-tag">Electro-Muscle</span>
+          <h3>EMS | MYOFX</h3>
+          <p>Full-body electro-muscle stimulation that activates up to 90% of muscle fibres simultaneously. A 20-minute MYOFX session delivers the deep muscular engagement of hours of conventional training — precise, efficient and transformative.</p>
+          <a href="https://www.bookup.gr/business-directory" target="_blank" rel="noopener" class="btn btn--dark modal-book">Book Now</a>
+        </div>
+        <div class="modal__item">
+          <span class="modal__item-tag">Body Sculpting</span>
+          <h3>MYO SLIM</h3>
+          <p>Targeted EMS technology focused on body contouring and toning. MYO SLIM stimulates localised muscle groups to reduce volume, improve definition and firm the body from within — without impact or strain.</p>
+          <a href="https://www.bookup.gr/business-directory" target="_blank" rel="noopener" class="btn btn--dark modal-book">Book Now</a>
+        </div>
+        <div class="modal__item">
+          <span class="modal__item-tag">Circulation</span>
+          <h3>VACU</h3>
+          <p>Vacu training combines gentle movement with negative pressure technology to accelerate circulation, support lymphatic drainage and enhance body contouring results. A deeply restorative and effective session for the lower body.</p>
+          <a href="https://www.bookup.gr/business-directory" target="_blank" rel="noopener" class="btn btn--dark modal-book">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Deep Tissue -->
+  <div class="modal" id="modal-deep-tissue" role="dialog" aria-modal="true" aria-label="Deep Tissue Massage">
+    <div class="modal__backdrop"></div>
+    <div class="modal__panel">
+      <button class="modal__close" aria-label="Close">×</button>
+      <div class="modal__header">
+        <span class="label">Massage</span>
+        <h2>Deep Tissue <em>Massage</em></h2>
+      </div>
+      <div class="modal__grid">
+        <div class="modal__item">
+          <span class="modal__item-tag">60 min</span>
+          <h3>Focused Release</h3>
+          <p>A targeted 60-minute session addressing specific areas of chronic tension. Ideal for clients with regular training demands or postural imbalances that require sustained attention.</p>
+          <a href="https://www.bookup.gr/business-directory" target="_blank" rel="noopener" class="btn btn--dark modal-book">Book Now</a>
+        </div>
+        <div class="modal__item">
+          <span class="modal__item-tag">90 min</span>
+          <h3>Full Body Reset</h3>
+          <p>A comprehensive deep tissue treatment covering the full body. Systematic, intentional pressure work that restores mobility, relieves muscular fatigue and leaves you deeply recovered.</p>
+          <a href="https://www.bookup.gr/business-directory" target="_blank" rel="noopener" class="btn btn--dark modal-book">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lymphatic Drainage -->
+  <div class="modal" id="modal-lymphatic" role="dialog" aria-modal="true" aria-label="Lymphatic Drainage">
+    <div class="modal__backdrop"></div>
+    <div class="modal__panel">
+      <button class="modal__close" aria-label="Close">×</button>
+      <div class="modal__header">
+        <span class="label">Massage</span>
+        <h2>Lymphatic <em>Drainage</em></h2>
+      </div>
+      <div class="modal__grid">
+        <div class="modal__item">
+          <span class="modal__item-tag">45 min</span>
+          <h3>Express Drainage</h3>
+          <p>A focused 45-minute lymphatic session targeting the face, neck and décolletage. Reduces puffiness, enhances skin luminosity and promotes an immediate sense of lightness.</p>
+          <a href="https://www.bookup.gr/business-directory" target="_blank" rel="noopener" class="btn btn--dark modal-book">Book Now</a>
+        </div>
+        <div class="modal__item">
+          <span class="modal__item-tag">75 min</span>
+          <h3>Full Body Drainage</h3>
+          <p>A complete manual lymphatic drainage treatment for the entire body. Profoundly calming, deeply detoxifying and recommended as a regular reset for those seeking to support immunity, reduce inflammation and restore inner equilibrium.</p>
+          <a href="https://www.bookup.gr/business-directory" target="_blank" rel="noopener" class="btn btn--dark modal-book">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ALIGN Ritual -->
+  <div class="modal" id="modal-ritual" role="dialog" aria-modal="true" aria-label="ALIGN Ritual Massage">
+    <div class="modal__backdrop"></div>
+    <div class="modal__panel">
+      <button class="modal__close" aria-label="Close">×</button>
+      <div class="modal__header">
+        <span class="label">Massage</span>
+        <h2>ALIGN Ritual <em>Massage</em></h2>
+      </div>
+      <div class="modal__grid">
+        <div class="modal__item">
+          <span class="modal__item-tag">90 min</span>
+          <h3>The ALIGN Ritual</h3>
+          <p>Our signature treatment — a full sensory journey combining warm botanical oils, precision massage technique and guided breathwork. Designed to dissolve physical and mental tension in equal measure, leaving you completely restored.</p>
+          <a href="https://www.bookup.gr/business-directory" target="_blank" rel="noopener" class="btn btn--dark modal-book">Book Now</a>
+        </div>
+        <div class="modal__item">
+          <span class="modal__item-tag">120 min</span>
+          <h3>The Ritual Extended</h3>
+          <p>The complete ALIGN experience. Our extended ritual adds a warm scalp treatment, foot ritual and a curated aromatherapy inhalation — an hour of profound, unhurried care for the whole self.</p>
+          <a href="https://www.bookup.gr/business-directory" target="_blank" rel="noopener" class="btn btn--dark modal-book">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
