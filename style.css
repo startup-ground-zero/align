@@ -381,8 +381,9 @@ p {
 }
 
 .hero__logo {
-  width: auto;
+  width: 280px !important;
   max-width: 280px;
+  height: auto;
   margin: 0 auto 1.8rem;
   opacity: 0.92;
 }
@@ -1180,9 +1181,11 @@ p {
 }
 
 .footer__links-logo {
-  width: auto;
+  width: 140px !important;
   max-width: 140px;
+  height: auto;
   opacity: 0.9;
+  display: block;
 }
 
 .footer__links a {
